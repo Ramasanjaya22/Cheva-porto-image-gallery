@@ -5,8 +5,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <meta
+          <link rel="icon" href="ChevalierLab2-2-1024x1024.png" />
+          {/* <meta
             name="description"
             content="See pictures from Next.js Conf and the After Party."
           />
@@ -21,7 +21,7 @@ class MyDocument extends Document {
           <meta
             name="twitter:description"
             content="See pictures from Next.js Conf and the After Party."
-          />
+          /> */}
         </Head>
         <body className="bg-black antialiased">
           <Main />

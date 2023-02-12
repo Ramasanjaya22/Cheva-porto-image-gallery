@@ -55,7 +55,7 @@ export default function SharedModal({
       }}
     >
       <div
-        className="relative z-50 flex aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
+        className="relative z-50 flex w-full max-w-4xl items-center wide:h-full xl:taller-than-854:h-auto"
         {...handlers}
       >
         {/* Main image */}
@@ -77,8 +77,8 @@ export default function SharedModal({
                   }/image/upload/c_scale,${navigation ? 'w_1280' : 'w_1920'}/${
                     currentImage.public_id
                   }.${currentImage.format}`}
-                  width={navigation ? 1280 : 1920}
-                  height={navigation ? 853 : 1280}
+                  width={navigation ? 1280 : 1366}
+                  height={navigation ? 853 : 768}
                   priority
                   alt="Next.js Conf image"
                   onLoadingComplete={() => setLoaded(true)}
